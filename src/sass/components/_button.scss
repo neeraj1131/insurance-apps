@@ -1,0 +1,35 @@
+.btn {
+  border: 1px solid #f56954;
+  color: #f56954;
+  font-weight: 500;
+  &:hover,&:active {
+    outline: none;
+    background: #f56954;
+    color: white;
+  }
+}
+@media(max-width: 600px) {
+  .btn{
+    width: 5.4rem;
+    height: 2rem;
+    font-size: 11px;
+  }
+}
+@media(max-width: 1200px) {
+  .btn{
+    width: 5.4rem;
+    height: 2rem;
+    font-size: 11px;
+  }
+}
+.button-position {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media(max-width: 1200px) {
+  .btn{
+    bottom: 0.2rem;
+  }
+}

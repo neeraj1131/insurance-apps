@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+@import "fonts";
+@import "variables";
+@import "components/card";
+@import "components/footer";
+@import "components/navbar";
+@import "components/button";
+
+body {
+  font-family: sans-serif;
+  background-image: url('../assets/images/cover.jpg');
+  background-position: center center;
+  background-size: cover !important;
+}
+
+.row {
+  margin-top: 4rem;
+}
